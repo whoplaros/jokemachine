@@ -11,7 +11,7 @@ function tellJoke(event) {
 	event.preventDefault();
 	let apiKey = "e546fd9teb385774339o4d3b5b79c3a0";
 	let prompt =
-		"Please tell me a unique joke. Please provide your answer in HTML format. For example: <p>Joke question here</p><p>Joke answer here</p>";
+		"Please tell me a unique joke. Please provide your answer in HTML format as in the following example: <p>Joke question here</p><p>Joke answer here</p>";
 	let context =
 		"These jokes should be short and aimed at people under 12 years old";
 	let apiURL = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
