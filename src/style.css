@@ -1,3 +1,63 @@
 body {
-	background-color: yellowgreen;
+	background: rgb(255, 255, 255);
+	background: radial-gradient(
+		circle,
+		rgba(255, 255, 255, 1) 0%,
+		rgba(135, 244, 15, 1) 75%,
+		rgba(7, 170, 4, 1) 100%
+	);
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+		"Lucida Sans", Arial, sans-serif;
+}
+h1 {
+	text-align: center;
+	font-weight: 800;
+	font-size: 60px;
+	line-height: 1;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	color: black;
+	text-shadow: 5px 4px 4px white;
+}
+.container {
+	margin: 120px auto;
+	max-width: 800px;
+	padding: 20px;
+}
+header {
+	margin-bottom: 20px;
+}
+main {
+	margin-bottom: 60px;
+	text-align: center;
+	background-color: white;
+	padding-top: 30px;
+	min-height: 300px;
+	border-radius: 50px;
+	-webkit-box-shadow: 4px 6px 89px -21px rgba(112, 108, 112, 0.62);
+	-moz-box-shadow: 4px 6px 89px -21px rgba(112, 108, 112, 0.62);
+	box-shadow: 4px 6px 89px -21px rgba(112, 108, 112, 0.62);
+}
+.joke-button {
+	background-color: darkgreen;
+	color: white;
+	padding: 20px 40px;
+	font-size: 20px;
+	font-weight: 800;
+	margin: 30px auto;
+	transition: all ease-in-out 0.2s;
+	border-radius: 20px;
+	-webkit-box-shadow: 4px 6px 89px -21px rgba(112, 108, 112, 0.62);
+	-moz-box-shadow: 4px 6px 89px -21px rgba(112, 108, 112, 0.62);
+	box-shadow: 4px 6px 89px -21px rgba(112, 108, 112, 0.62);
+}
+.joke-button:hover {
+	background-color: rgb(84, 34, 192);
+	transform: scale(1.1);
+}
+.joke-lines {
+	font-size: 1.8em;
+	color: darkslategrey;
+}
+footer {
+	text-align: center;
 }
