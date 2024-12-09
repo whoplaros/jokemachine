@@ -3,13 +3,37 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>AI project</title>
+		<title>AI Kids Joke Generator Project</title>
+		<link rel="stylesheet" href="src/style.css" />
 	</head>
 	<body>
-		<h1>This is my project using an AI API!</h1>
-		<button id="button">Tell me joke</button>
-    <div id="joke"><div>
-    <script src="index.js"></script>
+		<div class="container">
+			<header>
+		<h1>AI Kids' Joke Generator</h1></header>
+		<main>
+		<h2>Click the button to have the computer tell you a hilarious joke!</h2>
+		<button class="tell-me-button" id="button">Tell me joke</button>
+    <div class="joke-lines" id="joke"><div>
+			</div>
+			</main>
+			<footer>
+				This AI project was coded by Wesley Hoplaros. It is open-sourced on
+				<a
+					href="https://github.com/whoplaros/kids-poetry-generator"
+					title="link to GitHub"
+					target="_blank"
+				>
+					GitHub</a
+				>
+				and is hosted on
+				<a
+					href="https://asyouwish-jokemachine.netlify.app"
+					title="link to netlify"
+					target="_blank"
+					>Netlify</a
+				>.
+			</footer>
+    <script src="src/index.js"></script>
     <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 	</body>
